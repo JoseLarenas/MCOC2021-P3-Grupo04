@@ -1,4 +1,6 @@
-# MCOC2021-P3-Grupo04
-Grupo N°4:
+# MCOC2021-P3
+### Grupo: 
+- 4
+### Integrantes:
 - José Luis Larenas
 - Santiago Dussaillant
