@@ -2,9 +2,10 @@
 
  ![🚙_Evaluación_de_Américo_Vespucio_Oriente](https://user-images.githubusercontent.com/88337732/140409349-f666b07a-462f-4a1c-8f28-d169b6601609.png)
  <p align="center">
-  <img src=![🚙_Evaluación_de_Américo_Vespucio_Oriente](https://user-images.githubusercontent.com/88337732/140409349-f666b07a-462f-4a1c-8f28-d169b6601609.png)>
+  <![🚙_Evaluación_de_Américo_Vespucio_Oriente](https://user-images.githubusercontent.com/88337732/140409349-f666b07a-462f-4a1c-8f28-d169b6601609.png)>
   <br><br>
  </p>
+ 
 ### Grupo: 
 - 4
 ### Integrantes:
