@@ -4,3 +4,4 @@
 ### Integrantes:
 - José Luis Larenas
 - Santiago Dussaillant
+- Pablo Simón
