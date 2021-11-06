@@ -11,7 +11,7 @@
 
 ## Entrega 2
 
-A continuación, en las Imagenes 1 a 4, se presentan los resultados obtenidss al correr el código ```"p3e2.py"```.
+A continuación, en las Imagenes 1 a 4, se presentan los resultados obtenidss al correr el código ```p3e2.py```. Para las Imagenes 2 a 4, el camino óptimo se ve representado por las líneas rojas, y el tiempo en recorrer dicho camino se encuentra en el título de cada figura.
 
  <p align="center">
   <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Imagenes%20Entrega%202/fig1.png">
