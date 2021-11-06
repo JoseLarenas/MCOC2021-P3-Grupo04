@@ -41,4 +41,4 @@ A continuación, en las Figuras 1 a 4, se presentan los resultados obtenidos al 
   <br><br>
  </p>
  
-_Nota: Figuras 1-4 se encuentran en la carpeta "Figuras Entrega 2"_
+_Nota: Figuras 1-4 se encuentran en la carpeta "Figuras Entrega 2"._
