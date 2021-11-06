@@ -40,3 +40,5 @@ A continuación, en las Figuras 1 a 4, se presentan los resultados obtenidos al 
   <b>Figura 4: Camino Óptimo de 0 a 4.</b><br>
   <br><br>
  </p>
+
+_Nota: Figuras 1-4 se encuentran en la carpeta "Figuras Entrega 2"_
