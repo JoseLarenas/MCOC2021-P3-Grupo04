@@ -77,7 +77,7 @@ _Obs: existen calles que contienen más de un tipo de calle, por ejemplo, "[foot
  </p>
 
    <p align="center">
-  <img src=" https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%203/p3e3_Dussaillant.png">
+  <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%203/p3e3_Dussaillant.png">
   <br><br>
   <b>Figura 6: Mapa de zonas para Dussaillant.</b><br>
   <br><br>
