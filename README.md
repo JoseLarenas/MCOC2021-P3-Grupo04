@@ -84,4 +84,5 @@ _Obs: existen calles que contienen más de un tipo de calle, por ejemplo, "[foot
  </p>
  
 _Nota: Figuras 5-7 se encuentran en la carpeta "Figuras Entrega 3"._
-_Obs: La zona 324 traia problemas al momento de usar la función gps.clip(...) por lo que se decidió omitir esa zona._
+
+_Obs: La zona 324 tenía problemas al momento de usar la función gps.clip(...) por lo que se decidió omitir esa zona._
