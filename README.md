@@ -86,7 +86,7 @@ _Obs: existen calles que contienen más de un tipo de calle, por ejemplo, "[foot
    <p align="center">
   <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%203/fig_simon.png">
   <br><br>
-  <b>Figura 6: Mapa de zonas para Dussaillant.</b><br>
+  <b>Figura 7: Mapa de zonas para Simón.</b><br>
   <br><br>
  </p>
  
