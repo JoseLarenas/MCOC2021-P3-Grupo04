@@ -42,3 +42,39 @@ A continuación, en las Figuras 1 a 4, se presentan los resultados obtenidos al 
  </p>
  
 _Nota: Figuras 1-4 se encuentran en la carpeta "Figuras Entrega 2"._
+
+## Entrega 3
+
+A continuación, en las Figuras 5 a 7, se presentan los resultados obtenidos al correr los códigos ```p3e3_grupo04_apellido.py``` entregados por Canvas. Las zonas centrales están de color rojo suave (#FFB2B2) y sus zonas vecinas están en gris (#CDCDCD). Además, sobre las zonas centrales y vecinas se superponen las calles respectivas, estas calles se colorean según la siguiente regla según su atributo ```"highway"```
+
+- Si ```highway=="motorway"``` se usa el color ```"red"```.
+- Si ```highway=="secondary"``` se usa el color ```"yellow"```.
+- Si ```highway=="tertiary"``` se usa el color ```"blue"```.
+- Si ```highway=="primary"``` se usa el color ```"green"```.
+- Si ```highway=="residential"``` se usa el color ```"black"```.
+
+Las calles que no son pintadas son las siguientes (en Santiago, Chile):
+- "footway"
+- "service"
+- "pedestrian"
+- "living_street"
+- "cycleway"
+- "unclassified"
+- "primary_link"
+- "motorway_link"
+- "steps"
+- "secondary_link"
+- "path"
+- "tertiary_link"
+
+_Obs: existen calles que contienen más de un tipo de calle, por ejemplo, "[footway, steps]"._
+
+  <p align="center">
+  <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%203/fig_larenas.png">
+  <br><br>
+  <b>Figura 5: Mapa de zonas para Larenas.</b><br>
+  <br><br>
+ </p>
+ 
+ 
+_Nota: Figuras 5-7 se encuentran en la carpeta "Figuras Entrega 3"._
