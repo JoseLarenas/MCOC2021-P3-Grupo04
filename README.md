@@ -148,7 +148,9 @@ Finalmente, se procede a graficar los resultados obtenidos, dichos resultados se
   <br><br>
  </p>
 
-A partir de la Figura 10, se puede mencionar que...
+A partir de los resultados obtenidos, se pueden obtener las sigiuentes tablas resumen:
+
+
 
 _Nota 1: Figuras 8-10 se encuentran en la carpeta "Figuras Entrega 4"._
 
