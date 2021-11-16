@@ -148,9 +148,16 @@ Finalmente, se procede a graficar los resultados obtenidos, dichos resultados se
   <br><br>
  </p>
 
-A partir de los resultados obtenidos, se pueden obtener las sigiuentes tablas resumen:
+A partir de los resultados obtenidos, se pueden obtener la siguiente tabla resumen:
 
+   <p align="center">
+  <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%204/Tabla%20Resumen.png">
+  <br><br>
+  <b>Figura 11: Tabla resumen.</b><br>
+  <br><br>
+ </p>
 
+Observando la Figura 11, se puede ver rápidamente que las rutas 3, 9, 10, 11 y 13 no van a ser utilizadas, debido a que su costo es mucho mayor a las rutas alternativas.
 
 _Nota 1: Figuras 8-10 se encuentran en la carpeta "Figuras Entrega 4"._
 
