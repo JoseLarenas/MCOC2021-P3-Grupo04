@@ -93,3 +93,65 @@ _Obs: existen calles que contienen más de un tipo de calle, por ejemplo, "[foot
 _Nota: Figuras 5-7 se encuentran en la carpeta "Figuras Entrega 3"._
 
 _Obs: La zona 324 tenía problemas al momento de usar la función gps.clip(...) por lo que se decidió omitir esa zona._
+
+## Entrega 4
+
+Para realizar el problema se utilizó el código ```p3e4.py```, para crear dicho código, fue necesario incorporar las funciones de costo:
+    ```
+    f1 = lambda f: 10.+f/120.
+    f2 = lambda f: 14.+f/80.
+    f3 = lambda f: 10.+f/240.
+    ```
+Donde f1 corresponde a los arcos r, v, z; f2 corresponde a los arcos s, u, w, y; f3 corresponde a los arcos t, x. Luego, se incorpora la matriz de costos, el grafo ```G = nx.DiGraph()```, los nodos y los arcos. Más adelante, se procede a crear el algoritmo que resolverá el equilibrio de Wardrop, esto es:
+```
+incrementos = [0.1]*9 + [0.01]*9 + [0.001]*9 + [0.0001]*9 + [0.00001]*9 + [0.000001]*9 + [0.0000001]*9 + [0.00000001]*10
+for incremento in incrementos:
+        for key in OD:
+            origen, destino = key[0], key[1]
+            demanda_actual, demanda_objetivo = OD[key], OD_target[key]
+            if demanda_actual > 0.:
+                path = dijkstra_path(G,origen,destino,weight='costo')
+                Nparadas = len(path)
+                for i in range(Nparadas-1):
+                    o, d = path[i], path[i+1]
+                    G.edges[o,d]['flujo'] += incremento*demanda_objetivo
+                    G.edges[o,d]['costo'] = G.edges[o,d]['fcosto'](G.edges[o,d]['flujo'])
+                OD[key] -= incremento*demanda_objetivo
+```
+Analizando estas líneas de código, se puede notar que se utilizan distintos incrementos para obtener un resultado más preciso. Luego, se recorre el diccionario creado a partir de la matriz origen-destino para determinar la ruta óptima con "dijkstra_path" (para grafos de mayor tamaño, se hubiera utilizado "astar_path"). Obteniendo la ruta óptima, se procede a recorrer la ruta para modificar el "flujo" y "costo" de cada arco. Esto último se hace de la siguiente manera:
+
+1. Se obtiene el origen y destino de cada arco, es decir, si la ruta es ['A', 'B', 'C'], la primera iteración sería origen='A', destino='B' y en la segunda iteración sería origen='B', destino='C'
+2. El flujo de cada arco aumenta en el incremento mencionado previamente (un incremento que varía c/r a cada iteración) multiplicado por la demanda objetivo (la demanda obtenida por enunciado)
+3. El costo de cada arco será igual a las funciones f1, f2, f3 (mencionadas previamente) evaluadas en el flujo obtenido en (2). Importante mencionar que el flujo se aplica a la función f1, f2, f3 correspondiente a la ruta que se esta iterando.
+4. A la demanda actual "OD[key]" se le resta el valor que se le agregó al flujo en (2). Dado que se le esta restando valores a la demanda actual, se puede ver que al llegar a 0, el alogritmo finalizará, pues, al tener la demanda actual en 0 implica que se llegó al equilibrio.
+
+Finalmente, se procede a graficar los resultados obtenidos, dichos resultados se pueden ver a continuación en las Figuras 8 a 10:
+
+ <p align="center">
+  <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%204/grafo.png">
+  <br><br>
+  <b>Figura 8: Grafo del problema.</b><br>
+  <br><br>
+ </p>
+
+   <p align="center">
+  <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%204/flujo.png">
+  <br><br>
+  <b>Figura 9: Flujo final establecido el equilibrio de Wardrop .</b><br>
+  <br><br>
+ </p>
+
+   <p align="center">
+  <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%204/costo.png">
+  <br><br>
+  <b>Figura 10: Costo de las rutas.</b><br>
+  <br><br>
+ </p>
+
+A partir de la Figura 10, se puede mencionar que
+
+_Nota: Figuras 8-10 se encuentran en la carpeta "Figuras Entrega 4"._
+
+## Entrega 5
+
+W.I.P.
