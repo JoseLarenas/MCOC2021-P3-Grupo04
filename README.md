@@ -148,7 +148,7 @@ Finalmente, se procede a graficar los resultados obtenidos, dichos resultados se
   <br><br>
  </p>
 
-A partir de los resultados obtenidos, se pueden obtener la siguiente tabla resumen:
+A partir de los resultados obtenidos, se obtiene la siguiente tabla resumen:
 
    <p align="center">
   <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Figuras%20Entrega%204/Tabla%20Resumen.png">
