@@ -97,11 +97,11 @@ _Obs: La zona 324 tenía problemas al momento de usar la función gps.clip(...) 
 ## Entrega 4
 
 Para realizar el problema se utilizó el código ```p3e4.py```, para crear dicho código, fue necesario incorporar las funciones de costo:
-    ```
-    f1 = lambda f: 10.+f/120.
-    f2 = lambda f: 14.+f/80.
-    f3 = lambda f: 10.+f/240.
-    ```
+```
+f1 = lambda f: 10.+f/120.
+f2 = lambda f: 14.+f/80.
+f3 = lambda f: 10.+f/240.
+```
 Donde f1 corresponde a los arcos r, v, z; f2 corresponde a los arcos s, u, w, y; f3 corresponde a los arcos t, x. Luego, se incorpora la matriz de costos, el grafo ```G = nx.DiGraph()```, los nodos y los arcos. Más adelante, se procede a crear el algoritmo que resolverá el equilibrio de Wardrop, esto es:
 ```
 incrementos = [0.1]*9 + [0.01]*9 + [0.001]*9 + [0.0001]*9 + [0.00001]*9 + [0.000001]*9 + [0.0000001]*9 + [0.00000001]*10
