@@ -157,7 +157,7 @@ A partir de los resultados obtenidos, se obtiene la siguiente tabla resumen:
   <br><br>
  </p>
 
-Observando la Figura 11, se puede ver rápidamente que las rutas 3, 9, 10, 11 y 13 no van a ser utilizadas, debido a que su costo es mucho mayor a las rutas alternativas. Además, se puede mencionar que los resultados obtenidos utilizando el código ```p3e4.py``` son resultados prácticamente iguales (errores menores al 1%) a los resultados obtenidos en la solución del "Control 4 - Asignación" de Sistemas de Transporte. Por ende, el código usado para resolver el problema está correcto.
+Observando la Figura 11, se puede ver rápidamente que las rutas 3, 9, 10, 11 y 13 no van a ser utilizadas, debido a que su costo es mucho mayor a las rutas alternativas, y el resto de las rutas para su par OD tienen costos básicamente iguales (difieren en solo algunos casos, y cuando difieren, son errores tan pequeños que no deben tomarse en cuenta, los errores van a tender a 0% a medida que se agreguen más decimales de precisión a los incrementos usados en el código). Finalmente, se puede mencionar que los resultados obtenidos utilizando el código ```p3e4.py``` son resultados prácticamente iguales (errores menores al 1%) a los resultados obtenidos en la solución del "Control 4 - Asignación" de Sistemas de Transporte. Por ende, el código usado para resolver el problema está correcto.
 
 _Nota 1: Figuras 8-11 se encuentran en la carpeta "Figuras Entrega 4"._
 
