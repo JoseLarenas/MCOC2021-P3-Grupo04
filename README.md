@@ -159,7 +159,7 @@ A partir de los resultados obtenidos, se pueden obtener la siguiente tabla resum
 
 Observando la Figura 11, se puede ver rápidamente que las rutas 3, 9, 10, 11 y 13 no van a ser utilizadas, debido a que su costo es mucho mayor a las rutas alternativas.
 
-_Nota 1: Figuras 8-10 se encuentran en la carpeta "Figuras Entrega 4"._
+_Nota 1: Figuras 8-11 se encuentran en la carpeta "Figuras Entrega 4"._
 
 _Nota 2: Los resultados obtenidos fueron redondeados a la cuarta décima para visualizar de mejor manera los valores en los gráficos"._
 
