@@ -120,8 +120,8 @@ for incremento in incrementos:
 ```
 Analizando estas líneas de código, se puede notar que se utilizan distintos incrementos para obtener un resultado más preciso. Luego, se recorre el diccionario creado a partir de la matriz origen-destino para determinar la ruta óptima con "dijkstra_path" (para grafos de mayor tamaño, se hubiera utilizado "astar_path"). Obteniendo la ruta óptima, se procede a recorrer la ruta para modificar el "flujo" y "costo" de cada arco. Esto último se hace de la siguiente manera:
 
-1. Se obtiene el origen y destino de cada arco, es decir, si la ruta es ['A', 'B', 'C'], la primera iteración sería origen='A', destino='B' y en la segunda iteración sería origen='B', destino='C'
-2. El flujo de cada arco aumenta en el incremento mencionado previamente (un incremento que varía c/r a cada iteración) multiplicado por la demanda objetivo (la demanda obtenida por enunciado)
+1. Se obtiene el origen y destino de cada arco, es decir, si la ruta es ['A', 'B', 'C'], la primera iteración sería origen='A', destino='B' y en la segunda iteración sería origen='B', destino='C'.
+2. El flujo de cada arco aumenta en el incremento mencionado previamente (un incremento que varía c/r a cada iteración) multiplicado por la demanda objetivo (la demanda obtenida por enunciado).
 3. El costo de cada arco será igual a las funciones f1, f2, f3 (mencionadas previamente) evaluadas en el flujo obtenido en (2). Importante mencionar que el flujo se aplica a la función f1, f2, f3 correspondiente a la ruta que se esta iterando.
 4. A la demanda actual "OD[key]" se le resta el valor que se le agregó al flujo en (2). Dado que se le esta restando valores a la demanda actual, se puede ver que al llegar a 0, el alogritmo finalizará, pues, al tener la demanda actual en 0 implica que se llegó al equilibrio.
 
@@ -148,9 +148,10 @@ Finalmente, se procede a graficar los resultados obtenidos, dichos resultados se
   <br><br>
  </p>
 
-A partir de la Figura 10, se puede mencionar que
+A partir de la Figura 10, se puede mencionar que...
 
 _Nota 1: Figuras 8-10 se encuentran en la carpeta "Figuras Entrega 4"._
+
 _Nota 2: Los resultados obtenidos fueron redondeados a la cuarta décima para visualizar de mejor manera los valores en los gráficos"._
 
 ## Entrega 5
