@@ -165,4 +165,4 @@ _Nota 2: Los resultados obtenidos fueron redondeados a la cuarta décima para vi
 
 ## Entrega 5
 
-W.I.P.
+Work in progress...
