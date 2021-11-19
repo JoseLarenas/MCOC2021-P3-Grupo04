@@ -170,9 +170,10 @@ Las zonas de la Figura 12 fueron seleccionadas según los siguientes criterios (
 1. Tiene origen y/o destino una zona donde se encuentra Américo Vespucio Oriente.
 2. Tiene una demanda > 100.
 
-Hay un total de **109** zonas que cumplen con los criterios 1 y 2.
+Hay un total de **109** zonas que cumplen con los criterios 1 y 2. Estas son:
+[287, 79, 143, 291, 581, 290, 497, 537, 500, 146, 288, 163, 220, 307, 201, 193, 232, 206, 200, 666, 306, 590, 271, 682, 274, 266, 516, 683, 277, 284, 425, 265, 297, 268, 304, 471, 292, 289, 677, 300, 1, 312, 295, 276, 668, 548, 153, 305, 684, 302, 667, 49, 675, 513, 299, 296, 293, 512, 511, 495, 498, 320, 448, 614, 508, 627, 325, 18, 313, 514, 309, 327, 496, 301, 673, 671, 672, 328, 332, 333, 331, 680, 370, 386, 388, 407, 578, 438, 440, 443, 430, 431, 642, 490, 502, 510, 696, 725, 695, 724, 543, 547, 577, 0, 580, 763, 2, 670, 599]
 
-**POR HACER: ¿Cuántos viajes deberá asignar? ¿Cuáles son los pares OD que espera Ud. que generen mayor flujo en AVO?**
+**POR HACER: ¿Cuántos viajes deberá asignar? 
 
    <p align="center">
   <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Entrega%205/fig_entrega_5.png">
@@ -181,4 +182,16 @@ Hay un total de **109** zonas que cumplen con los criterios 1 y 2.
   <br><br>
  </p>
 
-_Nota 1: La Figura 12, los códigos usados y los archivos .gpickle, .json y .csv se encuentran en la carpeta "Entrega 5"._
+En el código ```obtenerDatos.py```, se puso además, que las zonas con una demanda mayor a 1000 sean las zonas de mayor flujo. Hay un total de **24** zonas que generan mayor flujo en Américo Vespucio Oriente. Estas son:
+[304, 471, 307, 288, 292, 289, 666, 300, 682, 667, 500, 683, 677, 672, 153, 430, 291, 146, 287, 290, 266, 684, 599, 590]
+
+Estas zonas se pueden observar en la Figura 13.
+
+   <p align="center">
+  <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Entrega%205/fig_entrega_5_mayor_flujo.png">
+  <br><br>
+  <b>Figura 13: Zonas de mayor flujo.</b><br>
+  <br><br>
+ </p>
+
+_Nota 1: La Figura 12 y 13, los códigos usados y los archivos .gpickle, .json y .csv se encuentran en la carpeta "Entrega 5"._
