@@ -191,7 +191,7 @@ Hay un total de **109** zonas que cumplen con los criterios 1 y 2. Estas son:
 
 **¿Cuántos viajes deberá asignar?**
 
-
+Usando el código ```obtenerDatos.py``` se puede ver que hay un total de 772 122 viajes por hora para las zonas seleccionadas.
 
 **¿Cuáles son los pares OD que espera Ud. que generen mayor flujo en AVO?**
 
