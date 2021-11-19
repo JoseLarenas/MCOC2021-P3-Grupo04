@@ -170,11 +170,9 @@ Las zonas de la Figura 12 fueron seleccionadas según los siguientes criterios (
 1. Tiene origen y/o destino una zona donde se encuentra Américo Vespucio Oriente.
 2. Tiene una demanda > 100.
 
-Hay un total de 109 zonas que cumplen con los criterios 1 y 2.
+Hay un total de **109** zonas que cumplen con los criterios 1 y 2.
 
-**POR HACER:**
-**¿Cuántos viajes deberá asignar?**
-**¿Cuáles son los pares OD que espera Ud. que generen mayor flujo en AVO?**
+**POR HACER: ¿Cuántos viajes deberá asignar? ¿Cuáles son los pares OD que espera Ud. que generen mayor flujo en AVO?**
 
    <p align="center">
   <img src="https://github.com/JoseLarenas/MCOC2021-P3-Grupo04/blob/main/Entrega%205/fig_entrega_5.png">
