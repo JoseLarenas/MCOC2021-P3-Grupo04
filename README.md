@@ -166,8 +166,11 @@ _Nota 2: Los resultados obtenidos fueron redondeados a la cuarta décima para vi
 ## Entrega 5
 
 Para realizar esta entrega se usaron todos los archivos encontrados en la carpeta Entrega 5.
+
 ```p3e5.py``` --> código para graficar los datos
+
 ```obtenerDatos.py``` --> código para obtener datos importantes
+
 ```grafo.py``` --> código para obtener el grafo
 
 **¿Cómo seleccionó las zonas a incluir?**
