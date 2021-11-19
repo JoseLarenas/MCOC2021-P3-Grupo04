@@ -165,7 +165,10 @@ _Nota 2: Los resultados obtenidos fueron redondeados a la cuarta décima para vi
 
 ## Entrega 5
 
-_Para realizar esta entrega se usaron todos los archivos encontrados en la carpeta Entrega 5._
+Para realizar esta entrega se usaron todos los archivos encontrados en la carpeta Entrega 5.
+```p3e5.py``` --> código para graficar los datos
+```obtenerDatos.py``` --> código para obtener datos importantes
+```grafo.py``` --> código para obtener el grafo
 
 **¿Cómo seleccionó las zonas a incluir?**
 
@@ -207,5 +210,3 @@ Estas zonas se pueden observar a continuación, en la Figura 13:
   <b>Figura 13: Zonas de mayor flujo.</b><br>
   <br><br>
  </p>
-
-_Nota: Las Figuras 12 y 13, los códigos usados y los archivos .gpickle, .json y .csv se encuentran en la carpeta "Entrega 5"._
