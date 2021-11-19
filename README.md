@@ -165,11 +165,15 @@ _Nota 2: Los resultados obtenidos fueron redondeados a la cuarta décima para vi
 
 ## Entrega 5
 
+_Para realizar esta entrega se usaron todos los archivos encontrados en la carpeta Entrega 5._
+
+¿Cómo seleccionó las zonas a incluir?
 Las zonas de la Figura 12 fueron seleccionadas según los siguientes criterios (Estos criterios se encuentran en ```obtenerDatos.py``` en la carpeta Entrega 5):
 
 1. Tiene origen y/o destino una zona donde se encuentra Américo Vespucio Oriente.
 2. Tiene una demanda > 100.
 
+¿Cuántas zonas quedaron seleccionadas?
 Hay un total de **109** zonas que cumplen con los criterios 1 y 2. Estas son:
 
 [287, 79, 143, 291, 581, 290, 497, 537, 500, 146, 288, 163, 220, 307, 201, 193, 232, 206, 200, 666, 306, 590, 271, 682, 274, 266, 516, 683, 277, 284, 425, 265, 297, 268, 304, 471, 292, 289, 677, 300, 1, 312, 295, 276, 668, 548, 153, 305, 684, 302, 667, 49, 675, 513, 299, 296, 293, 512, 511, 495, 498, 320, 448, 614, 508, 627, 325, 18, 313, 514, 309, 327, 496, 301, 673, 671, 672, 328, 332, 333, 331, 680, 370, 386, 388, 407, 578, 438, 440, 443, 430, 431, 642, 490, 502, 510, 696, 725, 695, 724, 543, 547, 577, 0, 580, 763, 2, 670, 599]
@@ -183,9 +187,11 @@ Hay un total de **109** zonas que cumplen con los criterios 1 y 2. Estas son:
   <br><br>
  </p>
 
+¿Cuáles son los pares OD que espera Ud. que generen mayor flujo en AVO?
+
 En el código ```obtenerDatos.py```, se puso además, que las zonas con una demanda mayor a 1000 sean las zonas de mayor flujo. Hay un total de **24** zonas que generan mayor flujo en Américo Vespucio Oriente. Estas son:
 
-[304, 471, 307, 288, 292, 289, 666, 300, 682, 667, 500, 683, 677, 672, 153, 430, 291, 146, 287, 290, 266, 684, 599, 590]
+[[304, 471], [471, 304], [307, 471], [471, 307], [288, 292], [292, 288], [289, 666], [666, 289], [289, 300], [300, 289], [682, 667], [667, 682], [307, 500], [500, 307], [307, 307], [683, 683], [683, 288], [288, 683], [677, 672], [672, 677], [153, 430], [430, 153], [682, 291], [291, 682]]
 
 Estas zonas se pueden observar a continuación, en la Figura 13:
 
